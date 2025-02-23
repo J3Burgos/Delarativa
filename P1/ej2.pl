@@ -1,7 +1,7 @@
 familia( persona(antonio, foix, fecha(7, febrero, 1950), trabajo(renfe, 1200)),
          persona(maria, lopez, fecha(17, enero, 1952), trabajo(sus_labores, 0)),
          [ persona(patricia, foix, fecha(10, junio, 1970), trabajo(estudiante, 0)),
-           persona(juan, foix, fecha(30, mayo, 1972), trabajo(estudiante,0)) ] ).
+           persona(juan, foix, fecha(30, mayo, 1972), trabajo(estudiante,0)) ] )
 
 familia( persona(manuel, monterde, fecha(15, marzo, 1934), trabajo(profesor, 2000)),
          persona(pilar, gonzalez, fecha(9, julio, 1940), trabajo(maestra, 1900)),
