@@ -8,8 +8,8 @@
 sus(_,_,[],[]).
 
 % caso general
-sus(X,Y,[E1|L1],[E2|L2]) :- E1 = X, E2 = Y, sus(X,Y,L1,L2).
-sus(X,Y,[E1|L1],[E1|L2]) :- E1 \= X, sus(X,Y,L1,L2).
+sus(X,Y,[N | L1],[Y | L2]) :- X==N, sus(X,Y,L1,L2).
+sus(X,Y,[N | L1],[N | L2]) :- X\=N, sus(X,Y,L1,L2).
 
 % reemplar(X,Y,[H1|L],[Y|R]) :-  member(X,[H1]),!,reemplar(X,Y,L,R).
 
